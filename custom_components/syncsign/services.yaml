@@ -1,0 +1,14 @@
+update_display:
+  name: Update display
+  description: Update the eInk display contents.
+  target:
+    entity:
+      integration: syncsign
+  fields:
+    contents:
+      name: Display contents
+      description: New contents to display, in SyncSign Template format.
+      required: true
+      selector:
+        text:
+          multiline: true

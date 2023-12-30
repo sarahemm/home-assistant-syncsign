@@ -1,0 +1,14 @@
+{
+  "domain": "syncsign",
+  "name": "SyncSign eInk Displays",
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/syncsign",
+  "requirements": ["syncsign==0.1.0"],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": ["@sarahemm"],
+  "iot_class": "cloud_polling",
+  "version": "0.0.1"
+}
